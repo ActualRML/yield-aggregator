@@ -1,0 +1,8 @@
+.env
+cache/
+out/
+broadcast/
+foundry.lock
+forge.toml
+remappings.txt
+
