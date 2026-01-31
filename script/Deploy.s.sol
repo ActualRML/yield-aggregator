@@ -10,7 +10,7 @@ import "../src/mocks/MockStrategy.sol" as MockStrategy;
 contract Deploy is Script {
     function run() external {
         // ambil private key dari env
-        uint256 deployerKey = vm.envUint("PRIVATE_KEY");
+        uint256 deployerKey = uint256(vm.envBytes32("PRIVATE_KEY"));
         address deployer = vm.addr(deployerKey);
 
         vm.startBroadcast(deployerKey);

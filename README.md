@@ -43,6 +43,18 @@ test/
 script/
 └─ Deploy.s.sol # Deployment script
 
+## Sepolia Deployment
+
+- Vault: 0x10eF6C76429B494408983d402F98771e7A7974DC
+- Strategy: 0xd3EBa1fd328245bfA52b3d323D185d694FCECFCB
+- MockERC20: 0x134CC0F5D8E95E99e0befe8914e2B97b22cd5198
+
+## Verified Deployment (Sepolia)
+
+- Vault: 0x10eF6C76429B494408983d402F98771e7A7974DC  
+- Strategy: 0xd3EBa1fd328245bfA52b3d323D185d694FCECFCB  
+- Token: 0x134CC0F5D8E95E99e0befe8914e2B97b22cd5198
+
 ## Disclaimer
 
 This project is for learning and portfolio purposes only.  
